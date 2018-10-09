@@ -70,20 +70,7 @@ namespace AnimatedTextConsole
                     }
                     if (args[i] == "-txt")
                     {
-                        string allargs = string.Join(" ", args);
-                        //Console.WriteLine("all args: " + allargs);
-                        int i1 = allargs.IndexOf("-txt") + 4;
-                        //Console.WriteLine("txt index: " + i1.ToString());
-                        string aftertxt = allargs.Substring(i1, allargs.Length - i1).TrimStart(' ');
-                        //Console.WriteLine("after txt: " + aftertxt);
-                        if (aftertxt.IndexOf("\"") == null || aftertxt.IndexOf("\"") < 0)
-                        {
-                            Console.WriteLine("Invalid Filepath Format");
-                            showHelp();
-                            return;
-                        }
-                        string filepath = aftertxt.Substring(aftertxt.IndexOf("\"") + 1, aftertxt.LastIndexOf("\"") - 1);
-                        //Console.WriteLine("filepath: " + filepath);
+                        string filepath = args[i + 1];
                         if (!File.Exists(filepath))
                         {
                             Console.WriteLine("Invalid Text File Path");
@@ -104,8 +91,12 @@ namespace AnimatedTextConsole
             {
                 Console.WriteLine(ex);
             }
-            Console.WindowWidth = screenwidth;
-            Console.WindowHeight = screenheight;
+            if (screenwidth != defscreenwidth || screenheight != defscreenheight)
+            {
+                Console.WindowWidth = screenwidth;
+                Console.WindowHeight = screenheight;
+            }
+            Console.Clear();
             Console.WriteLine("Press any key to begin animation");
             Console.ReadKey();
 
