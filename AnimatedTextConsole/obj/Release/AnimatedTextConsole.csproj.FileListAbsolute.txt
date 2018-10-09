@@ -1,0 +1,5 @@
+c:\users\jam\documents\visual studio 2012\Projects\AnimatedTextConsole\AnimatedTextConsole\bin\Release\AnimatedTextConsole.exe.config
+c:\users\jam\documents\visual studio 2012\Projects\AnimatedTextConsole\AnimatedTextConsole\bin\Release\AnimatedTextConsole.exe
+c:\users\jam\documents\visual studio 2012\Projects\AnimatedTextConsole\AnimatedTextConsole\bin\Release\AnimatedTextConsole.pdb
+c:\users\jam\documents\visual studio 2012\Projects\AnimatedTextConsole\AnimatedTextConsole\obj\Release\AnimatedTextConsole.exe
+c:\users\jam\documents\visual studio 2012\Projects\AnimatedTextConsole\AnimatedTextConsole\obj\Release\AnimatedTextConsole.pdb

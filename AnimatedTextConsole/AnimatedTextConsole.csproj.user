@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>-txt \"c:\users\jam\banana.txt\" -cd 50 -ld 1000 -ds -rld -w 50 -h 40</StartArguments>
+  </PropertyGroup>
+</Project>
