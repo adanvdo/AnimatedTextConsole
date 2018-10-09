@@ -19,6 +19,7 @@ Example: c:\program directory> AnimatedTextConsole -txt "c:\linesoftext.txt"
 <tr><td>-txt</td><td>set txt filepath with lines to display</td><td>-txt "c:\users\bobdole\downloads\textlines.txt"</td></tr>
 <tr><td>-w</td><td>set window width in columns</td><td>-w 50</td></tr>
 <tr><td>-h</td><td>set window height in columns</td><td>-h 50</td></tr>
+<tr><td>-cbl</td><td>clear console before last line of text</td><td>-cbl</td></tr>
 </table>
 <p>Program Execution Example</p>
 <img src="https://github.com/adanvdo/AnimatedTextConsole/blob/master/AnimatedTextConsole/animatedtextconsole.gif">

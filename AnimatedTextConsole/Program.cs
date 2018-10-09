@@ -14,6 +14,7 @@ namespace AnimatedTextConsole
         static int linedelay = 800;
         static bool doublespace = false;
         static bool randomizelinedelay = false;
+        static bool clearbeforelastline = false;
         static int defscreenwidth = Convert.ToInt32(Math.Round(Console.LargestWindowWidth * .25, 0, MidpointRounding.ToEven));
         static int defscreenheight = Convert.ToInt32(Math.Round(Console.LargestWindowHeight * .40, 0, MidpointRounding.ToEven));
         static int screenwidth = defscreenwidth;
@@ -85,6 +86,10 @@ namespace AnimatedTextConsole
                         }
                         file.Close();
                     }
+                    if (args[i] == "-cbl")
+                    {
+                        clearbeforelastline = true;
+                    }
                 }
             }
             catch (Exception ex)
@@ -106,6 +111,8 @@ namespace AnimatedTextConsole
             {
                 string line = "   " + textlines[li];
                 int chars = line.Length;
+                if (li == textlines.Count - 1 && clearbeforelastline)
+                    Console.Clear();
                 if (!doublespace)
                     Console.WriteLine();
                 else Console.WriteLine(Environment.NewLine);
@@ -121,7 +128,7 @@ namespace AnimatedTextConsole
                     int neg = r.Next(0, 2);
                     if (neg == 0)
                         ld = 0 - ld;
-                     if(li < textlines.Count - 1) Thread.Sleep(linedelay + ld < 0 ? 0 : linedelay + ld);
+                    if(li < textlines.Count - 1) Thread.Sleep(linedelay + ld < 0 ? 0 : linedelay + ld);
                 }
                 else if(li < textlines.Count - 1) Thread.Sleep(linedelay);
             }
@@ -143,6 +150,7 @@ namespace AnimatedTextConsole
             Console.WriteLine(" -txt | set txt filepath with lines to display     | example: -txt \"" + @"c:\users\bobdole\downloads\textlines.txt" + "\" ");
             Console.WriteLine(" -w   | set window width in columns                | example: -w 50 ");
             Console.WriteLine(" -h   | set window height in columns               | example: -h 50 ");
+            Console.WriteLine(" -cbl | clear console before last line of text     | example: -cbl ");
             Console.ReadKey();
         }
     }

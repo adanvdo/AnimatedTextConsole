@@ -4,3 +4,9 @@ c:\users\jam\documents\visual studio 2012\Projects\AnimatedTextConsole\AnimatedT
 c:\users\jam\documents\visual studio 2012\Projects\AnimatedTextConsole\AnimatedTextConsole\obj\Debug\AnimatedTextConsole.csprojResolveAssemblyReference.cache
 c:\users\jam\documents\visual studio 2012\Projects\AnimatedTextConsole\AnimatedTextConsole\obj\Debug\AnimatedTextConsole.exe
 c:\users\jam\documents\visual studio 2012\Projects\AnimatedTextConsole\AnimatedTextConsole\obj\Debug\AnimatedTextConsole.pdb
+C:\Users\jam\AnimatedTextConsole\AnimatedTextConsole\bin\Debug\AnimatedTextConsole.exe.config
+C:\Users\jam\AnimatedTextConsole\AnimatedTextConsole\obj\Debug\AnimatedTextConsole.exe
+C:\Users\jam\AnimatedTextConsole\AnimatedTextConsole\obj\Debug\AnimatedTextConsole.pdb
+C:\Users\jam\AnimatedTextConsole\AnimatedTextConsole\bin\Debug\AnimatedTextConsole.exe
+C:\Users\jam\AnimatedTextConsole\AnimatedTextConsole\bin\Debug\AnimatedTextConsole.pdb
+C:\Users\jam\AnimatedTextConsole\AnimatedTextConsole\obj\Debug\AnimatedTextConsole.csprojResolveAssemblyReference.cache
