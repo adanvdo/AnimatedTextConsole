@@ -20,4 +20,5 @@ Example: c:\program directory> AnimatedTextConsole -txt "c:\linesoftext.txt"
 <tr><td>-w</td><td>set window width in columns</td><td>-w 50</td></tr>
 <tr><td>-h</td><td>set window height in columns</td><td>-h 50</td></tr>
 </table>
-
+<p>Program Execution Example</p>
+<img src="https://github.com/adanvdo/AnimatedTextConsole/blob/master/AnimatedTextConsole/animatedtextconsole.gif">
