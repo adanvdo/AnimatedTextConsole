@@ -1,6 +1,6 @@
 <b>AnimatedTextConsole by JAMGALACTIC</b>
 <p>AnimatedTextConsole is a simple .NET Console Application that allows you to display animated, typewriter-style text in the Windows CMD.</p>
-<p>The purpose of this app was to assist with the creation of the text animations with the intent of being recorded by screen-recording software. My personal reason for writing this program was for creating android boot animations with a terminal style text animation.</p>
+<p>The purpose of this app was to assist with the creation of the text animations with the intent of being recorded by screen-recording software like OBS Studio. My personal reason for writing this program was for creating android boot animations with a terminal style text animation.</p>
 <p>To use the program</p>
 <p>Run AnimatedTextConsole from the command line.  The only required argument is the -txt argument which specifies a text file to read lines of text from. Several other optional arguments can be used.<br>
 Example: c:\program directory> AnimatedTextConsole -txt "c:\linesoftext.txt" 
