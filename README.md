@@ -22,4 +22,5 @@ Example: c:\program directory> AnimatedTextConsole -txt "c:\linesoftext.txt"
 <tr><td>-cbl</td><td>clear console before last line of text</td><td>-cbl</td></tr>
 </table>
 <p>Program Execution Example</p>
+<img src="https://github.com/adanvdo/AnimatedTextConsole/blob/master/AnimatedTextConsole/command.jpg"><br>
 <img src="https://github.com/adanvdo/AnimatedTextConsole/blob/master/AnimatedTextConsole/animatedtextconsole.gif">
