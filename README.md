@@ -5,7 +5,7 @@
 <p>Run AnimatedTextConsole from the command line.  The only required argument is the -txt argument which specifies a text file to read lines of text from. Several other optional arguments can be used.<br>
 Example: c:\program directory> AnimatedTextConsole -txt "c:\linesoftext.txt" 
 </p>
-<p>Complete List of Arguments</p>
+<p><b>Complete List of Arguments</b></p>
 <table>
 <tr>
 <th>Arg</th>
@@ -13,7 +13,9 @@ Example: c:\program directory> AnimatedTextConsole -txt "c:\linesoftext.txt"
 <th>Usage</th>
 </tr>
 <tr><td>-cd</td><td>set delay in ms between characters</td><td>-cd 30</td></tr>
+<tr><td>-dd</td><td>set delay in ms for period character (.)</td><td>-dd 500</td></tr>
 <tr><td>-ld</td><td>set delay in ms before next line</td><td>-ld 800</td></tr>
+<tr><td>-eld</td><td>set delay in ms for empty lines</td><td>-eld 0</td></tr>
 <tr><td>-rld</td><td>randomize line delay between by +/- 500 ms</td><td>-rld</td></tr>
 <tr><td>-ds</td><td>enable double spacing between lines</td><td>-ds</td></tr>
 <tr><td>-txt</td><td>set txt filepath with lines to display</td><td>-txt "c:\users\bobdole\downloads\textlines.txt"</td></tr>
@@ -21,6 +23,11 @@ Example: c:\program directory> AnimatedTextConsole -txt "c:\linesoftext.txt"
 <tr><td>-h</td><td>set window height in columns</td><td>-h 50</td></tr>
 <tr><td>-cbl</td><td>clear console before last line of text</td><td>-cbl</td></tr>
 </table>
+
+<p><b>Bypass Delays For Certain Lines</b></p>
+<p>To bypass defined delays for certain lines of text, begin those lines with "!"<br>
+Example:</p>
+<p><i>!This line of text will have no character or line delays</i></p>
 <p>Program Execution Example</p>
 <img src="https://github.com/adanvdo/AnimatedTextConsole/blob/master/AnimatedTextConsole/command.jpg"><br>
 <img src="https://github.com/adanvdo/AnimatedTextConsole/blob/master/AnimatedTextConsole/animatedtextconsole.gif">
